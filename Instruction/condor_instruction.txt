@@ -1,0 +1,28 @@
+1# ssh tkiet@pub.icecube.wisc.edu -> ssh tkiet@submitter.icecube.wisc.edu
+download gsl: wget ftp://ftp.gnu.org/gnu/gsl/gsl-2.7.tar.gz
+pw: O1237go4567
+
+2# Make a job to submit:
+touch job.py
+cat > job.py
+type control-d to exit file
+
+3# submit job
+In order to submit a job to the cluster you need a job file
+• Specify your executable and any command line arguments it requires
+• Log: file created by condor to track job progress
+• output/error: captures standard output and standard error
+• Request the amount of CPU, memory, disk, and GPU
+• Queue: keyword telling it to create 1 instance of the job
+ex:
+cat job.sub
+executable = job.sh
+arguments = 10
+log = job.log
+output = job.out
+error = job.err
+request_cpus = 1
+request_memory = 100MB
+request_disk = 1GB
+#request_gpus = 1
+queue 1 

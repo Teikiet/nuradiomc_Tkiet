@@ -1,0 +1,39 @@
+if [[ $- == *i* ]]
+then
+    # User specific aliases and functions
+    # Directory for GNU scientific library
+    export GSLDIR=$HOME/gsl
+    # Working directory for NuRadioMC stuff (not the Python package directory)
+    export NURADIOMC_WORKDIR=$HOME/nuradiomc
+    # Directory of NuRadioMC Python package
+    export NURADIOMC=$HOME/NuRadioMC
+
+    # Only add if not already in variable
+    echo $LD_LIBRARY_PATH | grep -q "$GSLDIR"
+    if [ $? -eq 1 ]; then
+        export LD_LIBRARY_PATH=$GSLDIR:$LD_LIBRARY_PATH
+    fi
+
+    echo $PATH | grep -q "$HOME/.local/bin"   
+    if [ $? -eq 1 ]; then
+        export PATH=$HOME/.local/bin:$PATH
+    fi
+
+    echo $PYTHONPATH | grep -q "$NURADIOMC"
+    if [ $? -eq 1 ]; then
+        export PYTHONPATH=$NURADIOMC:$PYTHONPATH
+    fi
+
+    # Setup python
+    PYTHON_SETUP1=/cvmfs/ara.opensciencegrid.org/trunk/centos7/setup.sh
+    PYTHON_SETUP2=/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh
+    if [ -f $PYTHON_SETUP1 ]; then
+        echo "Setting up Python 3.9"
+        source $PYTHON_SETUP1 
+    elif [ -f $PYTHON_SETUP2 ]; then
+        echo "Setting up Python 3.7"
+        eval `$PYTHON_SETUP2`
+    else
+        echo "Could not setup up Python from /cvmfs."
+    fi
+fi

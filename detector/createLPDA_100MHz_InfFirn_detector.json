@@ -1,0 +1,32 @@
+{
+    "channels": {
+        "0": {
+            "channel_id": 0,
+            "station_id": 0,
+            "ant_type": "createLPDA_100MHz_InfFirn",
+            "ant_position_x": 0,
+            "ant_position_y": 0,
+            "ant_position_z": -200,
+            "ant_orientation_theta": 0,
+            "ant_orientation_phi": 0,
+            "ant_rotation_theta": 90,
+            "ant_rotation_phi": 0,
+            "commission_time": "{TinyDate}:2000-01-01T00:00:00",
+            "decommission_time": "{TinyDate}:2040-01-01T00:00:00",
+            "adc_sampling_frequency": 1.0,
+            "adc_n_samples": 512,
+            "cab_time_delay": 19.8
+        }
+    },
+    "stations": {
+        "0": {
+            "station_id": 0,
+            "pos_altitude": 0,
+            "pos_easting": 0,
+            "pos_northing": 0,
+            "pos_site": "southpole",
+            "commission_time": "{TinyDate}:2000-01-01T00:00:00",
+            "decommission_time": "{TinyDate}:2040-01-01T00:00:00"
+        }
+    }
+}

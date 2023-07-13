@@ -1,0 +1,893 @@
+000 (168525833.000.000) 2023-01-29 18:08:52 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168525833.000.000) 2023-01-29 18:12:05 Job executing on host: <10.128.10.32:49444?addrs=10.128.10.32-49444&alias=n-122.icecube.wisc.edu>
+...
+007 (168525833.000.000) 2023-01-29 18:12:05 Shadow exception!
+	Error from slot1_1@n-122.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168525833.000.000) 2023-01-29 18:12:05 Job was held.
+	Error from slot1_1@n-122.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168525833.000.000) 2023-01-29 21:14:23 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (168542257.000.000) 2023-01-29 21:15:11 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168542257.000.000) 2023-01-29 21:21:07 Job executing on host: <10.128.10.87:59357?addrs=10.128.10.87-59357&alias=n-6.icecube.wisc.edu>
+...
+007 (168542257.000.000) 2023-01-29 21:21:07 Shadow exception!
+	Error from slot1_1@n-6.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168542257.000.000) 2023-01-29 21:21:07 Job was held.
+	Error from slot1_1@n-6.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168542257.000.000) 2023-01-29 21:58:08 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (168545133.000.000) 2023-01-29 21:59:10 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168545133.000.000) 2023-01-29 22:01:08 Job executing on host: <10.128.11.119:54484?addrs=10.128.11.119-54484&alias=n-59.icecube.wisc.edu>
+...
+007 (168545133.000.000) 2023-01-29 22:01:08 Shadow exception!
+	Error from slot1_9@n-59.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168545133.000.000) 2023-01-29 22:01:08 Job was held.
+	Error from slot1_9@n-59.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168545133.000.000) 2023-01-29 23:22:50 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (168554758.000.000) 2023-01-29 23:24:47 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168554758.000.000) 2023-01-29 23:29:10 Job executing on host: <10.128.11.56:45199?addrs=10.128.11.56-45199&alias=c9-17.icecube.wisc.edu>
+...
+007 (168554758.000.000) 2023-01-29 23:29:10 Shadow exception!
+	Error from slot1_4@c9-17.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168554758.000.000) 2023-01-29 23:29:10 Job was held.
+	Error from slot1_4@c9-17.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+000 (168555725.000.000) 2023-01-29 23:37:57 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168555725.000.000) 2023-01-29 23:40:11 Job executing on host: <10.128.11.56:45199?addrs=10.128.11.56-45199&alias=c9-17.icecube.wisc.edu>
+...
+007 (168555725.000.000) 2023-01-29 23:40:11 Shadow exception!
+	Error from slot1_10@c9-17.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168555725.000.000) 2023-01-29 23:40:11 Job was held.
+	Error from slot1_10@c9-17.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168554758.000.000) 2023-01-29 23:46:13 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+009 (168555725.000.000) 2023-01-29 23:46:13 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (168556587.000.000) 2023-01-29 23:46:50 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+007 (168556587.000.000) 2023-01-29 23:49:08 Shadow exception!
+	Can no longer talk to condor_starter <10.128.11.41:35317>
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+001 (168556587.000.000) 2023-01-29 23:50:08 Job executing on host: <10.128.11.119:54484?addrs=10.128.11.119-54484&alias=n-59.icecube.wisc.edu>
+...
+007 (168556587.000.000) 2023-01-29 23:50:08 Shadow exception!
+	Error from slot1_9@n-59.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168556587.000.000) 2023-01-29 23:50:09 Job was held.
+	Error from slot1_9@n-59.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168556587.000.000) 2023-01-29 23:52:28 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (168557144.000.000) 2023-01-29 23:52:36 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168557144.000.000) 2023-01-29 23:54:12 Job executing on host: <10.128.10.197:34497?addrs=10.128.10.197-34497&alias=n-18.icecube.wisc.edu>
+...
+007 (168557144.000.000) 2023-01-29 23:54:12 Shadow exception!
+	Error from slot1_21@n-18.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168557144.000.000) 2023-01-29 23:54:12 Job was held.
+	Error from slot1_21@n-18.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168557144.000.000) 2023-01-30 04:17:02 Job was aborted.
+	via condor_rm (by user condor)
+...
+000 (168640484.000.000) 2023-01-30 19:57:55 Job submitted from host: <10.128.11.86:13877?addrs=10.128.11.86-13877&alias=submit-1.icecube.wisc.edu>
+...
+001 (168640484.000.000) 2023-01-30 20:03:46 Job executing on host: <10.128.11.50:50680?addrs=10.128.11.50-50680&alias=c9-11.icecube.wisc.edu>
+...
+007 (168640484.000.000) 2023-01-30 20:03:46 Shadow exception!
+	Error from slot1_27@c9-11.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (168640484.000.000) 2023-01-30 20:03:46 Job was held.
+	Error from slot1_27@c9-11.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (168640484.000.000) 2023-01-30 20:28:09 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193280838.000.000) 2023-07-06 02:37:24 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193280838.000.000) 2023-07-06 02:40:38 Job executing on host: <10.128.11.110:33833?addrs=10.128.11.110-33833&alias=n-51.icecube.wisc.edu>
+...
+007 (193280838.000.000) 2023-07-06 02:40:38 Shadow exception!
+	Error from slot1_10@n-51.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193280838.000.000) 2023-07-06 02:40:38 Job was held.
+	Error from slot1_10@n-51.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (193280838.000.000) 2023-07-06 02:40:55 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193391194.000.000) 2023-07-07 12:06:51 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193391194.000.000) 2023-07-07 12:08:14 Job executing on host: <10.128.10.191:58097?addrs=10.128.10.191-58097&alias=n-168.icecube.wisc.edu>
+...
+007 (193391194.000.000) 2023-07-07 12:08:14 Shadow exception!
+	Error from slot1_1@n-168.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193391194.000.000) 2023-07-07 12:08:14 Job was held.
+	Error from slot1_1@n-168.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (193391194.000.000) 2023-07-07 12:13:14 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193391624.000.000) 2023-07-07 12:21:40 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193391624.000.000) 2023-07-07 12:23:36 Job executing on host: <10.128.11.115:53030?addrs=10.128.11.115-53030&alias=n-55.icecube.wisc.edu>
+...
+007 (193391624.000.000) 2023-07-07 12:23:36 Shadow exception!
+	Error from slot1_27@n-55.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193391624.000.000) 2023-07-07 12:23:36 Job was held.
+	Error from slot1_27@n-55.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (193391624.000.000) 2023-07-07 12:57:40 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193393185.000.000) 2023-07-07 13:06:09 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393185.000.000) 2023-07-07 13:07:21 Job executing on host: <10.128.11.32:59042?addrs=10.128.11.32-59042&alias=c8-13.icecube.wisc.edu>
+...
+007 (193393185.000.000) 2023-07-07 13:07:21 Shadow exception!
+	Error from slot1_7@c8-13.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193393185.000.000) 2023-07-07 13:07:21 Job was held.
+	Error from slot1_7@c8-13.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (193393185.000.000) 2023-07-07 13:18:24 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193393497.000.000) 2023-07-07 13:37:12 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393497.000.000) 2023-07-07 13:40:48 Job executing on host: <10.128.10.190:55152?addrs=10.128.10.190-55152&alias=n-167.icecube.wisc.edu>
+...
+007 (193393497.000.000) 2023-07-07 13:40:48 Shadow exception!
+	Error from slot1_18@n-167.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193393497.000.000) 2023-07-07 13:40:48 Job was held.
+	Error from slot1_18@n-167.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+000 (193393635.000.000) 2023-07-07 13:52:27 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393635.000.000) 2023-07-07 13:55:47 Job executing on host: <10.128.11.40:59938?addrs=10.128.11.40-59938&alias=c9-1.icecube.wisc.edu>
+...
+007 (193393635.000.000) 2023-07-07 13:55:47 Shadow exception!
+	Error from slot1_1@c9-1.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193393635.000.000) 2023-07-07 13:55:47 Job was held.
+	Error from slot1_1@c9-1.icecube.wisc.edu: Failed to execute '/home/tkiet/nuradiomc/events/events.sh': (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (193393497.000.000) 2023-07-07 13:58:21 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+009 (193393635.000.000) 2023-07-07 13:58:21 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193393729.000.000) 2023-07-07 14:03:41 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+009 (193393729.000.000) 2023-07-07 14:24:34 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193393918.000.000) 2023-07-07 14:25:18 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393918.000.000) 2023-07-07 14:26:55 Job executing on host: <10.128.10.22:39515?addrs=10.128.10.22-39515&alias=n-112.icecube.wisc.edu>
+...
+006 (193393918.000.000) 2023-07-07 14:26:56 Image size of job updated: 736
+	1  -  MemoryUsage of job (MB)
+	736  -  ResidentSetSize of job (KB)
+...
+005 (193393918.000.000) 2023-07-07 14:26:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   1165874 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :        1     4096      4096 
+
+	Job terminated of its own accord at 2023-07-07T19:26:56Z.
+...
+000 (193393987.000.000) 2023-07-07 14:51:08 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393987.000.000) 2023-07-07 14:53:42 Job executing on host: <10.128.10.85:38112?addrs=10.128.10.85-38112&alias=n-24.icecube.wisc.edu>
+...
+006 (193393987.000.000) 2023-07-07 14:53:50 Image size of job updated: 185844
+	23  -  MemoryUsage of job (MB)
+	23424  -  ResidentSetSize of job (KB)
+...
+006 (193393987.000.000) 2023-07-07 14:54:02 Image size of job updated: 301428
+	23  -  MemoryUsage of job (MB)
+	23424  -  ResidentSetSize of job (KB)
+...
+005 (193393987.000.000) 2023-07-07 14:54:02 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   1740126 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :       23     4096      4096 
+
+	Job terminated of its own accord at 2023-07-07T19:54:02Z.
+...
+000 (193393988.000.000) 2023-07-07 14:59:55 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393988.000.000) 2023-07-07 15:01:07 Job executing on host: <10.128.11.59:57388?addrs=10.128.11.59-57388&alias=c9-20.icecube.wisc.edu>
+...
+006 (193393988.000.000) 2023-07-07 15:01:15 Image size of job updated: 186052
+	10  -  MemoryUsage of job (MB)
+	10240  -  ResidentSetSize of job (KB)
+...
+006 (193393988.000.000) 2023-07-07 15:01:27 Image size of job updated: 325692
+	10  -  MemoryUsage of job (MB)
+	10240  -  ResidentSetSize of job (KB)
+...
+005 (193393988.000.000) 2023-07-07 15:01:27 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   2918101 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :       10     4096      4096 
+
+	Job terminated of its own accord at 2023-07-07T20:01:27Z.
+...
+000 (193393989.000.000) 2023-07-07 15:08:19 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193393989.000.000) 2023-07-07 15:12:07 Job executing on host: <10.128.11.32:59042?addrs=10.128.11.32-59042&alias=c8-13.icecube.wisc.edu>
+...
+006 (193393989.000.000) 2023-07-07 15:12:08 Image size of job updated: 80
+	1  -  MemoryUsage of job (MB)
+	80  -  ResidentSetSize of job (KB)
+...
+005 (193393989.000.000) 2023-07-07 15:12:08 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   3293960 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :        1     4096      4096 
+
+	Job terminated of its own accord at 2023-07-07T20:12:08Z.
+...
+000 (193394152.000.000) 2023-07-07 15:33:00 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193394152.000.000) 2023-07-07 15:34:07 Job executing on host: <10.128.11.37:44129?addrs=10.128.11.37-44129&alias=c8-18.icecube.wisc.edu>
+...
+006 (193394152.000.000) 2023-07-07 15:34:16 Image size of job updated: 376648
+	35  -  MemoryUsage of job (MB)
+	35500  -  ResidentSetSize of job (KB)
+...
+006 (193394152.000.000) 2023-07-07 15:35:17 Image size of job updated: 474864
+	35  -  MemoryUsage of job (MB)
+	35500  -  ResidentSetSize of job (KB)
+...
+005 (193394152.000.000) 2023-07-07 15:35:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:51, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:51, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   3290871 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :       35     4096      4096 
+
+	Job terminated of its own accord at 2023-07-07T20:35:17Z.
+...
+000 (193394157.000.000) 2023-07-07 15:44:02 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193394157.000.000) 2023-07-07 15:45:07 Job executing on host: <10.128.11.39:41769?addrs=10.128.11.39-41769&alias=c8-20.icecube.wisc.edu>
+...
+006 (193394157.000.000) 2023-07-07 15:45:15 Image size of job updated: 420280
+	51  -  MemoryUsage of job (MB)
+	51372  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 15:50:21 Image size of job updated: 1848924
+	1194  -  MemoryUsage of job (MB)
+	1221932  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 15:55:19 Image size of job updated: 1957996
+	1296  -  MemoryUsage of job (MB)
+	1326424  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:00:18 Image size of job updated: 1971308
+	1296  -  MemoryUsage of job (MB)
+	1326424  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:05:19 Image size of job updated: 1971308
+	1412  -  MemoryUsage of job (MB)
+	1445420  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:10:19 Image size of job updated: 2220140
+	1722  -  MemoryUsage of job (MB)
+	1763024  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:15:19 Image size of job updated: 2459052
+	1975  -  MemoryUsage of job (MB)
+	2021904  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:20:22 Image size of job updated: 2957976
+	2516  -  MemoryUsage of job (MB)
+	2576112  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:25:20 Image size of job updated: 3472556
+	2981  -  MemoryUsage of job (MB)
+	3051948  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:30:19 Image size of job updated: 4235052
+	3742  -  MemoryUsage of job (MB)
+	3830988  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:35:19 Image size of job updated: 5197932
+	4678  -  MemoryUsage of job (MB)
+	4789828  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:40:20 Image size of job updated: 6065900
+	5418  -  MemoryUsage of job (MB)
+	5547916  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:45:21 Image size of job updated: 6871528
+	6203  -  MemoryUsage of job (MB)
+	6351496  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:50:21 Image size of job updated: 7659360
+	6981  -  MemoryUsage of job (MB)
+	7148276  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 16:55:21 Image size of job updated: 8413408
+	7669  -  MemoryUsage of job (MB)
+	7853048  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:00:22 Image size of job updated: 8894692
+	8285  -  MemoryUsage of job (MB)
+	8483280  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:05:22 Image size of job updated: 9701528
+	8963  -  MemoryUsage of job (MB)
+	9177116  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:10:24 Image size of job updated: 10412548
+	9566  -  MemoryUsage of job (MB)
+	9794760  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:15:23 Image size of job updated: 10874884
+	10155  -  MemoryUsage of job (MB)
+	10398352  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:20:24 Image size of job updated: 11598820
+	10674  -  MemoryUsage of job (MB)
+	10929392  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:25:24 Image size of job updated: 12066536
+	11225  -  MemoryUsage of job (MB)
+	11494212  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:30:25 Image size of job updated: 12799040
+	11790  -  MemoryUsage of job (MB)
+	12072784  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:35:26 Image size of job updated: 13264196
+	12311  -  MemoryUsage of job (MB)
+	12605744  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:40:26 Image size of job updated: 13588036
+	12784  -  MemoryUsage of job (MB)
+	13090592  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:45:26 Image size of job updated: 14346304
+	13207  -  MemoryUsage of job (MB)
+	13523568  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:50:26 Image size of job updated: 14731844
+	13700  -  MemoryUsage of job (MB)
+	14028228  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 17:55:26 Image size of job updated: 15038528
+	14133  -  MemoryUsage of job (MB)
+	14471920  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:00:26 Image size of job updated: 15377216
+	14579  -  MemoryUsage of job (MB)
+	14928368  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:05:26 Image size of job updated: 16207836
+	15037  -  MemoryUsage of job (MB)
+	15397132  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:10:27 Image size of job updated: 16550296
+	15472  -  MemoryUsage of job (MB)
+	15843312  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:15:27 Image size of job updated: 16863636
+	15883  -  MemoryUsage of job (MB)
+	16263260  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:20:27 Image size of job updated: 17246872
+	16352  -  MemoryUsage of job (MB)
+	16743924  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:25:28 Image size of job updated: 18077924
+	16746  -  MemoryUsage of job (MB)
+	17147668  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:30:28 Image size of job updated: 18380356
+	17149  -  MemoryUsage of job (MB)
+	17560272  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:35:28 Image size of job updated: 18693188
+	17551  -  MemoryUsage of job (MB)
+	17972200  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:40:28 Image size of job updated: 18993732
+	17940  -  MemoryUsage of job (MB)
+	18369744  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:45:29 Image size of job updated: 19271696
+	18339  -  MemoryUsage of job (MB)
+	18778864  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:50:29 Image size of job updated: 20237344
+	18806  -  MemoryUsage of job (MB)
+	19256716  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 18:55:30 Image size of job updated: 20510748
+	19173  -  MemoryUsage of job (MB)
+	19633128  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:00:31 Image size of job updated: 20833568
+	19582  -  MemoryUsage of job (MB)
+	20050964  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:05:31 Image size of job updated: 21180704
+	20024  -  MemoryUsage of job (MB)
+	20504112  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:10:31 Image size of job updated: 21446428
+	20387  -  MemoryUsage of job (MB)
+	20875720  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:15:32 Image size of job updated: 21759776
+	20764  -  MemoryUsage of job (MB)
+	21261404  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:20:32 Image size of job updated: 22760004
+	21182  -  MemoryUsage of job (MB)
+	21689640  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:25:32 Image size of job updated: 22988608
+	21520  -  MemoryUsage of job (MB)
+	22036220  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:30:33 Image size of job updated: 23326532
+	21904  -  MemoryUsage of job (MB)
+	22429628  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:35:33 Image size of job updated: 23603524
+	22291  -  MemoryUsage of job (MB)
+	22825140  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:40:33 Image size of job updated: 23823024
+	22653  -  MemoryUsage of job (MB)
+	23196068  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:45:34 Image size of job updated: 24858296
+	23708  -  MemoryUsage of job (MB)
+	24276068  -  ResidentSetSize of job (KB)
+...
+006 (193394157.000.000) 2023-07-07 19:48:03 Image size of job updated: 24928620
+	23708  -  MemoryUsage of job (MB)
+	24276068  -  ResidentSetSize of job (KB)
+...
+005 (193394157.000.000) 2023-07-07 19:48:04 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 03:17:49, Sys 0 00:03:40  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 03:17:49, Sys 0 00:03:40  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :     1.00        4         4 
+	   Disk (KB)             :     1     1000000   3290871 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           : 23708       20480     20480 
+
+	Job terminated of its own accord at 2023-07-08T00:48:03Z.
+...
+000 (193468531.000.000) 2023-07-08 15:32:59 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193468531.000.000) 2023-07-08 15:35:33 Job executing on host: <10.128.11.33:46626?addrs=10.128.11.33-46626&alias=c8-14.icecube.wisc.edu>
+...
+006 (193468531.000.000) 2023-07-08 15:35:41 Image size of job updated: 113888
+	64  -  MemoryUsage of job (MB)
+	64916  -  ResidentSetSize of job (KB)
+...
+006 (193468531.000.000) 2023-07-08 15:40:41 Image size of job updated: 1140628
+	743  -  MemoryUsage of job (MB)
+	759908  -  ResidentSetSize of job (KB)
+...
+006 (193468531.000.000) 2023-07-08 15:45:42 Image size of job updated: 2651592
+	2188  -  MemoryUsage of job (MB)
+	2240196  -  ResidentSetSize of job (KB)
+...
+006 (193468531.000.000) 2023-07-08 15:46:11 Image size of job updated: 2763660
+	2311  -  MemoryUsage of job (MB)
+	2366124  -  ResidentSetSize of job (KB)
+...
+004 (193468531.000.000) 2023-07-08 15:46:11 Job was evicted.
+	(0) CPU times
+		Usr 0 00:10:24, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :     1.00        4         4 
+	   Disk (KB)             :     1     1000000   3293960 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :  2311       20480     20480 
+...
+009 (193468531.000.000) 2023-07-08 15:46:11 Job was aborted.
+	via condor_rm (by user tkiet)
+...
+000 (193468593.000.000) 2023-07-08 15:55:15 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193468593.000.000) 2023-07-08 15:58:32 Job executing on host: <10.128.11.74:41878?addrs=10.128.11.74-41878&alias=n-44.icecube.wisc.edu>
+...
+006 (193468593.000.000) 2023-07-08 15:58:40 Image size of job updated: 14940
+	8  -  MemoryUsage of job (MB)
+	8076  -  ResidentSetSize of job (KB)
+...
+006 (193468593.000.000) 2023-07-08 15:59:24 Image size of job updated: 418292
+	8  -  MemoryUsage of job (MB)
+	8076  -  ResidentSetSize of job (KB)
+...
+005 (193468593.000.000) 2023-07-08 15:59:24 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   3399873 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :        8    20480     20480 
+
+	Job terminated of its own accord at 2023-07-08T20:59:24Z.
+...
+000 (193468616.000.000) 2023-07-08 16:01:27 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193468616.000.000) 2023-07-08 16:07:33 Job executing on host: <10.128.10.188:39188?addrs=10.128.10.188-39188&alias=n-165.icecube.wisc.edu>
+...
+006 (193468616.000.000) 2023-07-08 16:07:41 Image size of job updated: 348328
+	70  -  MemoryUsage of job (MB)
+	70876  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 16:12:41 Image size of job updated: 965264
+	310  -  MemoryUsage of job (MB)
+	316732  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 16:17:42 Image size of job updated: 965264
+	347  -  MemoryUsage of job (MB)
+	355008  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 16:22:43 Image size of job updated: 965264
+	378  -  MemoryUsage of job (MB)
+	387044  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 16:27:43 Image size of job updated: 965264
+	382  -  MemoryUsage of job (MB)
+	390344  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 16:42:45 Image size of job updated: 1783644
+	1453  -  MemoryUsage of job (MB)
+	1487360  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 16:47:45 Image size of job updated: 3365364
+	1453  -  MemoryUsage of job (MB)
+	1487360  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:02:59 Image size of job updated: 3365364
+	2585  -  MemoryUsage of job (MB)
+	2647040  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:08:00 Image size of job updated: 4807228
+	4266  -  MemoryUsage of job (MB)
+	4367784  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:13:00 Image size of job updated: 6347736
+	5807  -  MemoryUsage of job (MB)
+	5945440  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:18:00 Image size of job updated: 7845540
+	7244  -  MemoryUsage of job (MB)
+	7416996  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:23:01 Image size of job updated: 9275608
+	8473  -  MemoryUsage of job (MB)
+	8675520  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:28:01 Image size of job updated: 10435912
+	9605  -  MemoryUsage of job (MB)
+	9835020  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:33:01 Image size of job updated: 11581992
+	10659  -  MemoryUsage of job (MB)
+	10914132  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:38:02 Image size of job updated: 12269324
+	11579  -  MemoryUsage of job (MB)
+	11856240  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:43:03 Image size of job updated: 13358952
+	12525  -  MemoryUsage of job (MB)
+	12824800  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:48:03 Image size of job updated: 14470504
+	13430  -  MemoryUsage of job (MB)
+	13752228  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-08 19:53:04 Image size of job updated: 15251148
+	13430  -  MemoryUsage of job (MB)
+	13752228  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:24:16 Image size of job updated: 15251148
+	13747  -  MemoryUsage of job (MB)
+	14076192  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:29:16 Image size of job updated: 15420008
+	14649  -  MemoryUsage of job (MB)
+	15000020  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:34:17 Image size of job updated: 16550660
+	15500  -  MemoryUsage of job (MB)
+	15871788  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:39:17 Image size of job updated: 17191428
+	16319  -  MemoryUsage of job (MB)
+	16710164  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:44:17 Image size of job updated: 18327632
+	17116  -  MemoryUsage of job (MB)
+	17526192  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:49:18 Image size of job updated: 18919504
+	17884  -  MemoryUsage of job (MB)
+	18312444  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:54:19 Image size of job updated: 19481680
+	18613  -  MemoryUsage of job (MB)
+	19058712  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 07:59:19 Image size of job updated: 20624732
+	19340  -  MemoryUsage of job (MB)
+	19803928  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:04:20 Image size of job updated: 21161308
+	20029  -  MemoryUsage of job (MB)
+	20508784  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:09:21 Image size of job updated: 21678428
+	20716  -  MemoryUsage of job (MB)
+	21212876  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:14:21 Image size of job updated: 22833792
+	21360  -  MemoryUsage of job (MB)
+	21872524  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:19:21 Image size of job updated: 23328128
+	22014  -  MemoryUsage of job (MB)
+	22542040  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:24:22 Image size of job updated: 23821440
+	22649  -  MemoryUsage of job (MB)
+	23191664  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:29:22 Image size of job updated: 24281728
+	23258  -  MemoryUsage of job (MB)
+	23815712  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:34:22 Image size of job updated: 25501140
+	23878  -  MemoryUsage of job (MB)
+	24450076  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:39:23 Image size of job updated: 25975764
+	24462  -  MemoryUsage of job (MB)
+	25048512  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:44:24 Image size of job updated: 26398932
+	25050  -  MemoryUsage of job (MB)
+	25651100  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:49:24 Image size of job updated: 26844372
+	25604  -  MemoryUsage of job (MB)
+	26218064  -  ResidentSetSize of job (KB)
+...
+006 (193468616.000.000) 2023-07-09 08:54:25 Image size of job updated: 27277780
+	26170  -  MemoryUsage of job (MB)
+	26797732  -  ResidentSetSize of job (KB)
+...
+007 (193468616.000.000) 2023-07-09 08:56:58 Shadow exception!
+	Error from slot1_22@n-165.icecube.wisc.edu: Policy violation. Memory limit exceeded: requested 20480MB, used 26484MB.
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (193468616.000.000) 2023-07-09 08:56:58 Job was held.
+	Error from slot1_22@n-165.icecube.wisc.edu: Policy violation. Memory limit exceeded: requested 20480MB, used 26484MB.
+	Code 21 Subcode 1001
+...
+000 (193488490.000.000) 2023-07-09 13:43:11 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (193488490.000.000) 2023-07-09 13:46:42 Job executing on host: <10.128.11.32:59042?addrs=10.128.11.32-59042&alias=c8-13.icecube.wisc.edu>
+...
+006 (193488490.000.000) 2023-07-09 13:46:51 Image size of job updated: 7128
+	4  -  MemoryUsage of job (MB)
+	4092  -  ResidentSetSize of job (KB)
+...
+006 (193488490.000.000) 2023-07-09 13:49:54 Image size of job updated: 453804
+	4  -  MemoryUsage of job (MB)
+	4092  -  ResidentSetSize of job (KB)
+...
+005 (193488490.000.000) 2023-07-09 13:49:54 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   3293960 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :        4    20480     20480 
+
+	Job terminated of its own accord at 2023-07-09T18:49:54Z.
+...
+009 (193468616.000.000) 2023-07-09 15:42:59 Job was aborted.
+	via condor_rm (by user tkiet)
+...

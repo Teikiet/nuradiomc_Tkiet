@@ -1,0 +1,6 @@
+executable = sim2.sh
+log = sim2.log
+output = sim2.out
+error = sim2.err
+request_cpus = 4
+queue 1 

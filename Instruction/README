@@ -1,0 +1,39 @@
+TODO ONCE
+---------
+- Add lines from `add_to_bashrc.txt` to your `.bashrc`. It adds proper environmental path variables.
+    - It also grabs the most up-to-date python version available depending on machine logged into.
+    - For Condor that is 3.7 and for Cobalt that is 3.9 
+- Clone NuRadioMC repo to $HOME with parent folder `NuRadioMC`.
+- Download GSL and build into directory `gsl` in parent folder (used for C++ raytracer for NuRadioMC).
+
+TO RUN
+-----
+- Make sure you've SSH'd into a Condor machine (via `ssh submitter`)
+- Edit constants.py for the corrects parameters (detector JSON, number of events, etc.)
+- Run `python generate_events.py` to create the event list
+- Run `python generate_sim_sub.py` to create the .sh and .submit files for submitting to Condor
+- Run `python submit_jobs.py` to submit every .submit to Condor
+- Run `python merge_all.py <input_dir> <output_dir>` to merge all the *.hdf5.part* files. The input_dir
+  is the directory that holds all the directories with the individual energy directories. That is,
+  <input_dir>/<directory_for_a_single_simulation>/<directory_for_a_single_energy_run>/*.hdf5.part*. And
+  the output_dir is the directory to put all the merged hdf5 files. This does the below automatically for
+  all simulations and then moves the merged HDF5 files into a separate directory.
+  > Run `python merge_hdf5.py <name_of_simulation_directory>` to combine all partial hdf5 files
+    to create NUM_SIMS simulation files in the end. This file was copied from NuRadioMC git repo.
+
+NOTES
+-----
+- Directory choice can be changed in `add_to_bashrc.txt` (or `.bashrc` if it has already been
+  added). $NURADIOMC_WORK_DIR is the directory in which all of the files used for the simulation
+  exist, e.g. `constants.py`, `create_detector_json.py`, `generate_events.py`, etc. $GSLDIR is the 
+  top directory for GSL. And $NURADIOMC is the directory for the the python package NuRadioMC.
+- Trigger thresholds and such can be changed in `simulate.py`. That is where the Simulation
+  class is located.
+- There will be NUM_SIMS*(NUM_EVENTS/NUM_EVENTS_PER_FILE) submissions (keep that in mind).
+  For example, if there are 100,000 events and 10 different energies and the events are split
+  up into groups of 1000, then there will be 10*(100,000/1000)=1000 .submit files.
+- NuRadioMC looks for antennas in the directory NuRadioMC/NuRadioReco/detector/AntennaModels/*/*.pkl
+  where * is the pickle file name of the antenna.
+- Setting NUR=True in constants.py will prevent the event files (and simulation files from being split up
+  since the .nur file isn't anyway. This means that NUM_EVENTS_PER_FIILE is effectively NUM_EVENTS. Note that
+  .nur files are large: more than 1GB for a 100,000 event simulation.

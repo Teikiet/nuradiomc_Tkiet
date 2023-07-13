@@ -1,0 +1,51 @@
+/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/RHEL_7_x86_64/lib/python3.7/site-packages/astropy/config/configuration.py:532: ConfigurationMissingWarning: Configuration defaults will be used due to OSError:Could not find unix home directory to search for astropy config dir on None
+  warn(ConfigurationMissingWarning(msg))
+STATUS:NuRadioMC:reading default config from /home/tkiet/NuRadioMC/NuRadioMC/simulation/config_default.yaml
+STATUS:NuRadioMC:reading local config overrides from config.yaml
+STATUS:NuRadioMC:setting event time to 2018-01-01 00:00:00
+STATUS:NuRadioMC:Detectorfile /mnt/home/tkiet/nuradiomc/Veff_simulation/surface_station_1GHz.json
+WARNING:NuRadioReco.detector:loading detector description from /mnt/home/tkiet/nuradiomc/Veff_simulation/surface_station_1GHz.json
+STATUS:NuRadioMC:running with noise False
+STATUS:NuRadioMC:setting signal to zero False
+STATUS:NuRadioMC:reading input from event_file/1e19_n1e4.hdf5
+STATUS:NuRadioMC:bandwidth of station 101 channel 0 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 1 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 2 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 3 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 4 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 5 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 6 is 413.3MHz
+STATUS:NuRadioMC:bandwidth of station 101 channel 7 is 413.3MHz
+STATUS:NuRadioMC:station 101 channel 0 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 1 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 2 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 3 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 4 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 5 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 6 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:station 101 channel 7 noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:(if same bandwidth for all stations/channels is assumed:) noise temperature = 300.0, bandwidth = 413.33 MHz -> Vrms = 9.25 muV
+STATUS:NuRadioMC:final Vrms 9.3e-06V corresponds to an efield of 9.3 muV/m for a VEL = 1m (amplification factor of system is 1.0).
+ -> all signals with less then 2.0 x Vrms_efield = 19muV/m will be skipped
+STATUS:NuRadioMC:Starting NuRadioMC simulation
+WARNING:NuRadioReco.antennapattern:loading antenna file createLPDA_100MHz_InfFirn took 2 seconds
+WARNING:NuRadioReco.antennapattern:loading antenna file bicone_v8_InfFirn took 1 seconds
+STATUS:NuRadioMC:processing event group 1290/10000 and shower 943/12388 (11 showers triggered) = 7.6%, ETA 12m15s, time consumption: ray tracing = 69%, askaryan = 1%, detector simulation = 27% reading input = 0%, calculating weights = 2%, distance cut 0%, unaccounted = 1% 
+STATUS:NuRadioMC:processing event group 2711/10000 and shower 1985/12388 (23 showers triggered) = 16.0%, ETA 10m32s, time consumption: ray tracing = 74%, askaryan = 1%, detector simulation = 22% reading input = 0%, calculating weights = 2%, distance cut 0%, unaccounted = 1% 
+STATUS:NuRadioMC:processing event group 4269/10000 and shower 3108/12388 (32 showers triggered) = 25.1%, ETA 9m1s, time consumption: ray tracing = 75%, askaryan = 1%, detector simulation = 21% reading input = 0%, calculating weights = 2%, distance cut 0%, unaccounted = 1% 
+STATUS:NuRadioMC:processing event group 5775/10000 and shower 4148/12388 (40 showers triggered) = 33.5%, ETA 7m59s, time consumption: ray tracing = 76%, askaryan = 1%, detector simulation = 20% reading input = 0%, calculating weights = 2%, distance cut 0%, unaccounted = 1% 
+STATUS:NuRadioMC:processing event group 7447/10000 and shower 5344/12388 (58 showers triggered) = 43.1%, ETA 6m37s, time consumption: ray tracing = 76%, askaryan = 1%, detector simulation = 20% reading input = 0%, calculating weights = 2%, distance cut 0%, unaccounted = 1% 
+STATUS:NuRadioMC:processing event group 8611/10000 and shower 6215/12388 (69 showers triggered) = 50.2%, ETA 5m58s, time consumption: ray tracing = 76%, askaryan = 1%, detector simulation = 20% reading input = 0%, calculating weights = 2%, distance cut 0%, unaccounted = 1% 
+STATUS:NuRadioMC:start saving events
+STATUS:NuRadioMC:fraction of triggered events = 57/10000 = 0.005 (sum of weights = 32.70)
+STATUS:NuRadioMC:Veff = 0.4438 km^3, Veffsr = 5.577 km^3 sr
+STATUS:NuRadioMC:Timing of NuRadioReco modules 
+efieldToVoltageConverter: 25s 45.9%
+channelResampler: 0s 0.0%
+channelBandPassFilter: 10s 18.5%
+channelBandPassFilter: 10s 18.5%
+triggerSimulator: 6s 11.8%
+triggerSimulator: 1s 2.7%
+triggerSimulator: 1s 2.7%
+
+STATUS:NuRadioMC:12388 events processed in 7m0s = 33.97ms/event (0.0% input, 76.0% ray tracing, 1.5% askaryan, 19.6% detector simulation, 0.0% output, 2.1% weights calculation)

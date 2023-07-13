@@ -1,0 +1,5 @@
+executable = event.sh
+log = event.log
+output = event.out
+error = event.err
+queue 1 

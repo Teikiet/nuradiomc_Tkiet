@@ -1,0 +1,6 @@
+executable = sim3.sh
+log = sim3.log
+output = sim3.out
+error = sim3.err
+request_cpus = 4
+queue 1 

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/tkiet/nuradiomc/generate_monopoles.py", line 41, in <module>
+    os.mkdir(evts_energy_path)
+FileExistsError: [Errno 17] File exists: '/data/user/tkiet/events_monopoles/events_n1.000e04_3_18to20/1.000e18'
