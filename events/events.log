@@ -891,3 +891,37 @@
 009 (193468616.000.000) 2023-07-09 15:42:59 Job was aborted.
 	via condor_rm (by user tkiet)
 ...
+000 (194622895.000.000) 2023-08-02 05:02:05 Job submitted from host: <10.128.11.86:44190?addrs=10.128.11.86-44190&alias=submit-1.icecube.wisc.edu>
+...
+001 (194622895.000.000) 2023-08-02 05:07:25 Job executing on host: <10.128.11.110:44837?addrs=10.128.11.110-44837&alias=n-51.icecube.wisc.edu>
+...
+006 (194622895.000.000) 2023-08-02 05:07:33 Image size of job updated: 11088
+	7  -  MemoryUsage of job (MB)
+	6380  -  ResidentSetSize of job (KB)
+...
+006 (194622895.000.000) 2023-08-02 05:08:15 Image size of job updated: 522132
+	7  -  MemoryUsage of job (MB)
+	6380  -  ResidentSetSize of job (KB)
+...
+005 (194622895.000.000) 2023-08-02 05:08:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:10, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:10, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :                 4         4 
+	   Disk (KB)             :        1  1000000   3439060 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :        7    20480     20480 
+
+	Job terminated of its own accord at 2023-08-02T10:08:15Z.
+...

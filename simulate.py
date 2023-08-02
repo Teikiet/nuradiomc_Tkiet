@@ -158,15 +158,15 @@ class Simulation(simulation.simulation):
         channel = list(np.linspace(0,15, 16))
 
         highLowThreshold.run(evt, station, det,
-                                threshold_high=0 * self._Vrms,#originaly 1, 5 
-                                threshold_low=-0 * self._Vrms,#originaly 1, 5
+                                threshold_high=5 * self._Vrms,#originaly 1, 5 
+                                threshold_low=-5 * self._Vrms,#originaly 1, 5
                                 coinc_window=40 * units.ns,
                                 triggered_channels=channel,
                                 number_concidences=2,  # 2/4 majority logic
                                 trigger_name='hilo_2of4_5_sigma')
 
         simpleThreshold.run(evt, station, det,
-                                threshold=0 * self._Vrms, #originaly 10
+                                threshold=10 * self._Vrms, #originaly 10
                                 triggered_channels=channel,
                                 trigger_name='simple_10_sigma')
 

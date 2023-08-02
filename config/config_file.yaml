@@ -30,4 +30,4 @@ propagation:
   focusing: False  # if True apply the focusing effect.
   focusing_limit: 2  # the maximum amplification factor of the focusing correction
   n_reflections: 0  # the maximum number of reflections off a reflective layer at the bottom of the ice layer
-save_all: True
+save_all: False

@@ -30,7 +30,7 @@ E_MAX = 18
 NUM_SIMS = 1
 
 # Number of events per simulation
-NUM_EVENTS = 10000
+NUM_EVENTS = 100000
 NUM_EVENTS_PER_FILE = 1
 
 # Detector's json file
@@ -40,7 +40,7 @@ DETECTOR = f"/home/tkiet/nuradiomc/detector/{DET_NAME}.json"
 
 #Configuration:
 CONFIG = "/home/tkiet/nuradiomc/config/config_file.yaml"
-PARTICLE_NAME = "monopoles"
+PARTICLE_NAME = "neutrinos"
 # Parent Directory names
 EVTS_DIR = f"{EVTS_PATH}_n{NUM_FORMAT(NUM_EVENTS)}_{NUM_SIMS}_{E_MIN}to{E_MAX}"
 Finish_DIR = f"finish_{SIMS_PATH}_{DET_NAME}_n{NUM_FORMAT(NUM_EVENTS)}_{NUM_SIMS}_{E_MIN}to{E_MAX}"
