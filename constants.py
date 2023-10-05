@@ -23,15 +23,15 @@ NUM_FORMAT = lambda x: f"{x:.3e}".replace("+", "")
 
 # The power raising 10 to
 E_MIN = 18
-E_MAX = 18
+E_MAX = 20
 
 # Number of simulations, logarithmically equidistant
 # between 10^E_MIN and 10^E_MAX
-NUM_SIMS = 1
+NUM_SIMS = 3
 
 # Number of events per simulation
 NUM_EVENTS = 100000
-NUM_EVENTS_PER_FILE = 1
+NUM_EVENTS_PER_FILE = 100
 
 # Detector's json file
 DET_NAME = "ara2"
@@ -40,7 +40,7 @@ DETECTOR = f"/home/tkiet/nuradiomc/detector/{DET_NAME}.json"
 
 #Configuration:
 CONFIG = "/home/tkiet/nuradiomc/config/config_file.yaml"
-PARTICLE_NAME = "neutrinos"
+PARTICLE_NAME = "monopoles"
 # Parent Directory names
 EVTS_DIR = f"{EVTS_PATH}_n{NUM_FORMAT(NUM_EVENTS)}_{NUM_SIMS}_{E_MIN}to{E_MAX}"
 Finish_DIR = f"finish_{SIMS_PATH}_{DET_NAME}_n{NUM_FORMAT(NUM_EVENTS)}_{NUM_SIMS}_{E_MIN}to{E_MAX}"

@@ -1,0 +1,3 @@
+Change what event generation function in the events.sh file.
+To run the event generation in the cluster, write:
+condor_submit events.sub
