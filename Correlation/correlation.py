@@ -14,39 +14,17 @@ import json
 import os
 import sys
 from scipy import stats
-from NuRadioReco.utilities import units
-from NuRadioReco.detector import detector
-from NuRadioMC.utilities import fluxes
-
-from NuRadioMC.examples.Sensitivities import E2_fluxes3 as limits
-import numpy as np
 import matplotlib.pyplot as plt
-from NuRadioReco.utilities import units
-from NuRadioReco.framework.parameters import stationParameters as stnp
 import pandas as pd
+import seaborn as sns
 from math import isclose
 import mplhep as hep
 from scipy.signal import find_peaks
-
-PATH = "/home/teikiet/Data/"
-##########################################################################
-S_ID = [100, 2, 3, 4, 5] #station ID
-C_ID = list(range(0,16)) #channel ID
-V_pole_channel = list(range(0,8)) #channel ID
-H_pole_channel = list(range(8,16)) #channel ID
-##########################################################################
-E = 18 #energy
-detectordescription = "detector/ara2.json" #detector 
-##########################################################################
-
 
 def correlation(channel1, channel2):
     return radiotools.helper.get_normalized_xcorr(channel1,channel2)
 def correlation2(trace1, trace2):
     return scipy.signal.correlate(trace1, trace2, mode='full', method='auto') / (np.sum(trace1 ** 2) * np.sum(trace2 ** 2)) ** 0.5
-
-# Open the ROOT file for reading
-file = "/user/tkiet/Data/fBC_TGraphs_run8074.root"
 
 # Loop through the keys and identify TGraph objects
 
@@ -72,11 +50,6 @@ def get_channel_name(file):
             h_pole_channel_name.append(G_name[i])
     return v_pole_channel_name, h_pole_channel_name
 
-#v_pole_channel_name, h_pole_channel_name = get_channel_name(file)
-#Channel info for root file: ############################################################################################################
-#v_pole_channel_name = ['grCPAvg2M883_0', 'grCPAvgN_M128_0', 'grfftCPAvgN_M128_0', 'grCPAvg2M883_1', 'grCPAvgN_M128_1', 'grfftCPAvgN_M128_1', 'grCPAvg2M883_2', 'grCPAvgN_M128_2', 'grfftCPAvgN_M128_2', 'grCPAvg2M883_3', 'grCPAvgN_M128_3', 'grfftCPAvgN_M128_3', 'grCPAvg2M883_4', 'grCPAvgN_M128_4', 'grfftCPAvgN_M128_4', 'grCPAvg2M883_5', 'grCPAvgN_M128_5', 'grfftCPAvgN_M128_5', 'grCPAvg2M883_6', 'grCPAvgN_M128_6', 'grfftCPAvgN_M128_6', 'grCPAvg2M883_7', 'grCPAvgN_M128_7', 'grfftCPAvgN_M128_7']
-#h_pole_channel_name = ['grCPAvg2M883_8', 'grCPAvgN_M128_8', 'grfftCPAvgN_M128_8', 'grCPAvg2M883_9', 'grCPAvgN_M128_9', 'grfftCPAvgN_M128_9', 'grCPAvg2M883_10', 'grCPAvgN_M128_10', 'grfftCPAvgN_M128_10', 'grCPAvg2M883_11', 'grCPAvgN_M128_11', 'grfftCPAvgN_M128_11', 'grCPAvg2M883_12', 'grCPAvgN_M128_12', 'grfftCPAvgN_M128_12', 'grCPAvg2M883_13', 'grCPAvgN_M128_13', 'grfftCPAvgN_M128_13', 'grCPAvg2M883_14', 'grCPAvgN_M128_14', 'grfftCPAvgN_M128_14', 'grCPAvg2M883_15', 'grCPAvgN_M128_15', 'grfftCPAvgN_M128_15']
-
 def read_root_file(root_file, graph_name):
     root_file = ROOT.TFile(root_file, "READ")
     # Get the TGraph by name
@@ -100,13 +73,6 @@ def read_root_file(root_file, graph_name):
         print("TGraph", graph_name, "not found in the ROOT file.")
     root_file.Close()
 # Close the ROOT file when done
-
-#######################################################################################################################################
-import pandas as pd
-import seaborn as sn
-#Channel info: #############################################################################################################
-v_pole_channel_info = [S_ID, V_pole_channel]
-h_pole_channel_info = [S_ID, H_pole_channel]
 
 #Get data:
 def get_trace_from_root(root_file, G_name):
@@ -214,10 +180,9 @@ def get_mean_error(event, rpr, corr):
 
 
 # data in csv file:
-file_8074 = "/home/teikiet/Data/fBC_TGraphs_run8074.root"
-file_A3 = "/home/teikiet/Data/fBC_TGraphs_A3.root"
-file_a = "/home/teikiet/Data/a.root"    
-file = "/home/teikiet/Data/grA_ev1_A4_2018_ie0_4096_T26Mar23-131515.979900_run4402.root"
+file_8074 = "/home/tkiet/fBC_TGraphs_run8074.root"
+file_A3 = "/home/tkiet/fBC_TGraphs_A3.root"
+file_a = "/home/tkiet/a.root"    
 
 file_a = file_8074
 v_pole_channel_name_a, h_pole_channel_name_a = get_channel_name(file_a)

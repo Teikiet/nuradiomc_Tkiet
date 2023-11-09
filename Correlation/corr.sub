@@ -4,3 +4,4 @@ output = corr.out
 error = corr.err
 request_cpus = 4
 request_memory = 10 GB
+queue 1 

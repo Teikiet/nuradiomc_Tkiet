@@ -1,12 +1,4 @@
-INFO:NuRadioMC-EvtGen:increasing rmax from 5.5km to 5.5km, zmax from 0.0km to 0.0km
-INFO:NuRadioMC-EvtGen:decreasing rmin from 0.0km to 0.0km
-INFO:NuRadioMC-EvtGen:decreasing zmin from -1.5km to -1.5km
-INFO:NuRadioMC-EvtGen:increasing number of events to 100000
-INFO:NuRadioMC-EvtGen:processing batch 1/1 with 1e+05 events
-INFO:NuRadioMC-EvtGen:Time per event (PROPOSAL only): 0.0000 ms
-INFO:NuRadioMC-EvtGen:Total time (PROPOSAL only) 0s
-INFO:NuRadioMC-EvtGen:number of fiducial showers 123644
-INFO:NuRadioMC-EvtGen:saving 100000 events in total
-STATUS:NuRadioMC-EvtGen:writing file /data/user/tkiet/events/events_n1.000e05_1_18to18/evt_1.000e18.hdf5 with 100000 events (id 1 - 100000) and 123644 entries
-INFO:NuRadioMC-EvtGen:wrote 100000 events in total
-STATUS:NuRadioMC-EvtGen:finished in 9s
+/cvmfs/ara.opensciencegrid.org/trunk/RHEL_7_x86_64/root_build/lib/cppyy/__init__.py:72: DeprecationWarning: invalid escape sequence \d
+  if re.match('^libcppyy_backend\d_\d$', lib_name):
+/cvmfs/ara.opensciencegrid.org/trunk/RHEL_7_x86_64/root_build/lib/ROOT/_facade.py:121: MatplotlibDeprecationWarning: The matplotlib.docstring module was deprecated in Matplotlib 3.6 and will be removed two minor releases later.
+  return _orig_ihook(name, *args, **kwds)
